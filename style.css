@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color: red;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    h1{
+        margin-left: 2%;
+    }
+    img{
+        height: 150px;
+    }
+    div{
+        button{
+            background-color: rgba(255, 0, 0, 0.397);
+            align-items: center;
+            justify-content: center;
+            font-size: large;
+            height: 35px;
+            width: 120px;
+            border: black;
+            border-style: solid;
+            border-radius: 20px;
+            border-width: 4px;
+        }
+        a{
+            img{
+                height: 60px;
+            }
+        }
+    }
+}
+.perfil{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+}
